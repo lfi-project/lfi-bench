@@ -1,0 +1,293 @@
+{
+  "label": "lfi-large-clang-64",
+  "sources": [
+    {
+      "path": "/home/zyedidia/cpu2017/result/CPU2017.184.fprate.refrate.rsf",
+      "sha256": "8302d8fd0fec1d0a9939ae56b459043dcbc2ec804b07a69e99f1be834f8fea3b",
+      "imported_at": "2026-05-04T00:05:43.819470156-04:00",
+      "run_number": 184,
+      "suite": "fprate",
+      "size": "refrate",
+      "id": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "path": "/home/zyedidia/cpu2017/result/CPU2017.184.intrate.refrate.rsf",
+      "sha256": "7bf2f21c2fabe596d1fff24937f63b5cd68921a7ac92aec1cbbc2e5b40582a3c",
+      "imported_at": "2026-05-04T00:05:43.827116264-04:00",
+      "run_number": 184,
+      "suite": "intrate",
+      "size": "refrate",
+      "id": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    }
+  ],
+  "iterations": [
+    {
+      "benchmark": "508.namd_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 85.925925,
+      "ratio": 11.056035,
+      "valid": "S",
+      "exehash": "0b787d74826be0c3abfb9d0792314b7ce64a4a98e28df7c42ac97782bcd5facf",
+      "selected": true,
+      "source": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "benchmark": "510.parest_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 259.633044,
+      "ratio": 10.075759,
+      "valid": "S",
+      "exehash": "47f0b00a3a7f4d645f671b86c040eb6ed17c7c34052ab3449aca6a54a0ebb67a",
+      "selected": true,
+      "source": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "benchmark": "511.povray_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 182.350815,
+      "ratio": 12.804988,
+      "valid": "S",
+      "exehash": "5beb17d76be369355b0c6037da07f7d7240045cf8df25d8710726a47c0890dac",
+      "selected": true,
+      "source": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "benchmark": "519.lbm_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 85.491748,
+      "ratio": 12.328675,
+      "valid": "S",
+      "exehash": "fdf09776b0a88192e8485f42d2cf583376548fa4f42ea2a50a83328e461e5f3e",
+      "selected": true,
+      "source": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "benchmark": "538.imagick_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 145.556132,
+      "ratio": 17.086192,
+      "valid": "S",
+      "exehash": "5a250d2c2bc5b3034f82b40af789906307002244f1112b626cf5ac437779c8a5",
+      "selected": true,
+      "source": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "benchmark": "544.nab_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 127.476253,
+      "ratio": 13.202459,
+      "valid": "S",
+      "exehash": "279c692a7175ed1bd930650208547f9201e0bf03acb9e57a8cead2f87090ef4b",
+      "selected": true,
+      "source": "CPU2017.184.fprate.refrate.rsf:8302d8fd"
+    },
+    {
+      "benchmark": "502.gcc_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 196.552132,
+      "ratio": 7.204196,
+      "valid": "S",
+      "exehash": "8a43815816b63437b7fca18a91f388ead57348e22792c60494ebec3cb9780009",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "505.mcf_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 161.257127,
+      "ratio": 10.021263,
+      "valid": "S",
+      "exehash": "9c4373a67fa784bf08583ad3f41d148a354149220de4f692032906efc94487db",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "520.omnetpp_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 380.232885,
+      "ratio": 3.450517,
+      "valid": "S",
+      "exehash": "e2cca8268be948a5b40379feeff0348cc4408ab8ae46246d27f83f6e04630ca5",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "523.xalancbmk_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 112.850967,
+      "ratio": 9.357474,
+      "valid": "S",
+      "exehash": "ac9a4dc2a3aa00d2afd8bb0708531a06565c740ed81dd394db2ecc7cc133ffc3",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "525.x264_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 64.119143,
+      "ratio": 27.308537,
+      "valid": "S",
+      "exehash": "6a5e51ef1a36df8eb8949d9f8e5343d4da2373e2a080768d55096929bf94855e",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "531.deepsjeng_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 161.282583,
+      "ratio": 7.105541,
+      "valid": "S",
+      "exehash": "6a5f874f6e798a1abdbc630a7f96c3c20bea8642c2807f249b3f7b84dd566727",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "541.leela_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 243.371808,
+      "ratio": 6.804404,
+      "valid": "S",
+      "exehash": "a20cef88e0b6d34a0e0602a654e1cfcc34bf203ba351c8cb2a3015f7144d6441",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    },
+    {
+      "benchmark": "557.xz_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 290.960594,
+      "ratio": 3.711843,
+      "valid": "S",
+      "exehash": "726de968f4c4b7ff5c67dd4c2d118ef9211a80a3559b32a0cfc8d7752846fd57",
+      "selected": true,
+      "source": "CPU2017.184.intrate.refrate.rsf:7bf2f21c"
+    }
+  ],
+  "binaries": {
+    "502.gcc_r": {
+      "size": 16193296,
+      "code_size": 12596396,
+      "sha256": "0a917f02c589c4e0025047e244484e8cbee07dacda1d9571926ef0d8889e4ff4",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/502.gcc_r/exe/cpugcc_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.83770472-04:00"
+    },
+    "505.mcf_r": {
+      "size": 221416,
+      "code_size": 88844,
+      "sha256": "0e6d72fb763890b2ee5fb66352bffbab93db5cf39fdb0048f6a25f627ea54263",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/505.mcf_r/exe/mcf_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.837877889-04:00"
+    },
+    "508.namd_r": {
+      "size": 1392224,
+      "code_size": 967636,
+      "sha256": "dcb33923947814fadd96b3a90ecedb5a430b0074e00aca0f828b5047e4561080",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/508.namd_r/exe/namd_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.820393455-04:00"
+    },
+    "510.parest_r": {
+      "size": 5155984,
+      "code_size": 3129172,
+      "sha256": "a6faf3a5002f5707db460254fff04dc499b061c7b08584fa6d46ea90a92fb9bf",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/510.parest_r/exe/parest_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.823500683-04:00"
+    },
+    "511.povray_r": {
+      "size": 2326160,
+      "code_size": 1604352,
+      "sha256": "eb8c84bfff0188447159cbb3b3362c86b29b817bba1e93db7d63f769e4e3c482",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/511.povray_r/exe/povray_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.824958384-04:00"
+    },
+    "519.lbm_r": {
+      "size": 219888,
+      "code_size": 70128,
+      "sha256": "0675ddbc861151fa992b33dbd6563a6322dc2e6d9759fd1d694dbb0c8c899756",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/519.lbm_r/exe/lbm_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.825137041-04:00"
+    },
+    "520.omnetpp_r": {
+      "size": 4823472,
+      "code_size": 2437120,
+      "sha256": "5150651dd73e70cd658f2d27c4fc2fa11bfe9bab97c1fbff7a8c46061afaa78d",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/520.omnetpp_r/exe/omnetpp_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.840765851-04:00"
+    },
+    "523.xalancbmk_r": {
+      "size": 9199416,
+      "code_size": 5069220,
+      "sha256": "be5eb92fd6730a5c53bd43eeb5dd04f3ca28e9175cd06da4cacbb37e8e55a116",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/523.xalancbmk_r/exe/cpuxalan_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.84630672-04:00"
+    },
+    "525.x264_r": {
+      "size": 1058992,
+      "code_size": 805748,
+      "sha256": "41b2cca621925c3f08f5527fe3219e65cff38005c1afcbf432ffd959f8df78cf",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/525.x264_r/exe/x264_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.846978067-04:00"
+    },
+    "531.deepsjeng_r": {
+      "size": 293448,
+      "code_size": 157580,
+      "sha256": "4aeec42769d5bc43982dfd56fa3d68f268e3af1952312168431199d5e98ffa6c",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/531.deepsjeng_r/exe/deepsjeng_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.847195139-04:00"
+    },
+    "538.imagick_r": {
+      "size": 1948880,
+      "code_size": 1497176,
+      "sha256": "e0c3cb3cc3e384b25d5ab6bfcb4f4b6216379d9adb44679ea243b1ee5d610ff6",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/538.imagick_r/exe/imagick_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.826342773-04:00"
+    },
+    "541.leela_r": {
+      "size": 1968288,
+      "code_size": 1061852,
+      "sha256": "3af150830a40c9d7e5b5e095901b6fc85b69f656dde9e7cc7de372aabe85d0f1",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/541.leela_r/exe/leela_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.84840804-04:00"
+    },
+    "544.nab_r": {
+      "size": 300976,
+      "code_size": 168408,
+      "sha256": "1a22f21087492b86520a8da62ff993383216c591aa55cfb9ecbb16b935e0cb72",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/544.nab_r/exe/nab_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.82656831-04:00"
+    },
+    "557.xz_r": {
+      "size": 295632,
+      "code_size": 177716,
+      "sha256": "c6a7102cfd3b22d12aca3516ee6d6ca702654156248c31adc6e43102b38aa70d",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/557.xz_r/exe/xz_r_base.lfi-large-clang-64",
+      "recorded_at": "2026-05-04T00:05:43.848677097-04:00"
+    }
+  }
+}

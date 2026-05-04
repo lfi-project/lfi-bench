@@ -1,0 +1,475 @@
+{
+  "label": "lfi-jumps-clang-m64",
+  "sources": [
+    {
+      "path": "/home/zyedidia/cpu2017/result/CPU2017.588.fprate.refrate.rsf",
+      "sha256": "4375fd1491327522f8baef60571b5e6fe68db08fbadfe9112c590caa2eb93887",
+      "imported_at": "2026-05-03T20:18:48.230197313-05:00",
+      "run_number": 588,
+      "suite": "fprate",
+      "size": "refrate",
+      "id": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "path": "/home/zyedidia/cpu2017/result/CPU2017.588.intrate.refrate.rsf",
+      "sha256": "940ae0efedffc73259038025ae3dd41398b8bcb034c54babd7fe397edede9b3c",
+      "imported_at": "2026-05-03T20:18:48.244676285-05:00",
+      "run_number": 588,
+      "suite": "intrate",
+      "size": "refrate",
+      "id": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    }
+  ],
+  "iterations": [
+    {
+      "benchmark": "508.namd_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 245.32346,
+      "ratio": 3.872438,
+      "valid": "S",
+      "exehash": "83afbf9e4e98c2b0d0e4d91f9842957783c51a4c8c7d37904dae61624615c586",
+      "selected": false,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "508.namd_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 249.728805,
+      "ratio": 3.804127,
+      "valid": "S",
+      "exehash": "83afbf9e4e98c2b0d0e4d91f9842957783c51a4c8c7d37904dae61624615c586",
+      "selected": true,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "510.parest_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 567.833659,
+      "ratio": 4.606983,
+      "valid": "S",
+      "exehash": "276cddc97e5e23828b5672863d2df1688bba7f6230cfd3e5dcf7b351071aef98",
+      "selected": true,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "510.parest_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 567.329359,
+      "ratio": 4.611078,
+      "valid": "S",
+      "exehash": "276cddc97e5e23828b5672863d2df1688bba7f6230cfd3e5dcf7b351071aef98",
+      "selected": false,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "511.povray_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 391.0588,
+      "ratio": 5.970969,
+      "valid": "S",
+      "exehash": "5592d8e1b19406d1a048c32b9266a536db725d2de67e58c951c6493823c7c8a7",
+      "selected": false,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "511.povray_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 391.158402,
+      "ratio": 5.969449,
+      "valid": "S",
+      "exehash": "5592d8e1b19406d1a048c32b9266a536db725d2de67e58c951c6493823c7c8a7",
+      "selected": true,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "519.lbm_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 259.681417,
+      "ratio": 4.05882,
+      "valid": "S",
+      "exehash": "4e7f1521d9c0d71e6b4c5a1dc654cac217015ec4100cc9d7fb6c3332a3897c43",
+      "selected": false,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "519.lbm_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 259.716743,
+      "ratio": 4.058267,
+      "valid": "S",
+      "exehash": "4e7f1521d9c0d71e6b4c5a1dc654cac217015ec4100cc9d7fb6c3332a3897c43",
+      "selected": true,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "538.imagick_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 543.270766,
+      "ratio": 4.577828,
+      "valid": "S",
+      "exehash": "f7ed1446c30a83833fd42d4a67d7d6e750d25845c54bea48de59d31850692f18",
+      "selected": false,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "538.imagick_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 543.295772,
+      "ratio": 4.577617,
+      "valid": "S",
+      "exehash": "f7ed1446c30a83833fd42d4a67d7d6e750d25845c54bea48de59d31850692f18",
+      "selected": true,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "544.nab_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 300.579346,
+      "ratio": 5.599187,
+      "valid": "S",
+      "exehash": "acc685f809a5bdb5bf4f29a8d16e1385584012758c328b89c46d51d9556b54b1",
+      "selected": false,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "544.nab_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 300.776386,
+      "ratio": 5.595519,
+      "valid": "S",
+      "exehash": "acc685f809a5bdb5bf4f29a8d16e1385584012758c328b89c46d51d9556b54b1",
+      "selected": true,
+      "source": "CPU2017.588.fprate.refrate.rsf:4375fd14"
+    },
+    {
+      "benchmark": "502.gcc_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 419.293673,
+      "ratio": 3.377108,
+      "valid": "S",
+      "exehash": "4268af999118876eb16bcda71a67a4e2206b1e0efed627aca19f16daea8c6e96",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "502.gcc_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 420.053677,
+      "ratio": 3.370998,
+      "valid": "S",
+      "exehash": "4268af999118876eb16bcda71a67a4e2206b1e0efed627aca19f16daea8c6e96",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "505.mcf_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 387.375922,
+      "ratio": 4.171658,
+      "valid": "S",
+      "exehash": "d0afa07c2911ec51ab6b208815f8cc20a9aa0d580bc587bc6d6fe03c68ffad64",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "505.mcf_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 386.958869,
+      "ratio": 4.176154,
+      "valid": "S",
+      "exehash": "d0afa07c2911ec51ab6b208815f8cc20a9aa0d580bc587bc6d6fe03c68ffad64",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "520.omnetpp_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 421.164382,
+      "ratio": 3.115173,
+      "valid": "S",
+      "exehash": "8b31c8ade7adffe6f1f2024de78909da1a2a20461d74ce2608d5e3c54193e1ef",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "520.omnetpp_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 421.323189,
+      "ratio": 3.113999,
+      "valid": "S",
+      "exehash": "8b31c8ade7adffe6f1f2024de78909da1a2a20461d74ce2608d5e3c54193e1ef",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "523.xalancbmk_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 266.382445,
+      "ratio": 3.964225,
+      "valid": "S",
+      "exehash": "76ea8b4f0a3c76703f1801c90ba9cfb526253ee2544c6d6a81bc9a222c2bee61",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "523.xalancbmk_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 266.25091,
+      "ratio": 3.966184,
+      "valid": "S",
+      "exehash": "76ea8b4f0a3c76703f1801c90ba9cfb526253ee2544c6d6a81bc9a222c2bee61",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "525.x264_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 225.876228,
+      "ratio": 7.752033,
+      "valid": "S",
+      "exehash": "03e5a9463cb0439902d7a8390dde6e05370dc2571f1a6b0cefcc85f94f3714e2",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "525.x264_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 226.791252,
+      "ratio": 7.720756,
+      "valid": "S",
+      "exehash": "03e5a9463cb0439902d7a8390dde6e05370dc2571f1a6b0cefcc85f94f3714e2",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "531.deepsjeng_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 377.302945,
+      "ratio": 3.037347,
+      "valid": "S",
+      "exehash": "40bf8a164ba83ca863f879194ab4753ff579b346c7f2e3332a96b1cfdb877994",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "531.deepsjeng_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 377.123176,
+      "ratio": 3.038795,
+      "valid": "S",
+      "exehash": "40bf8a164ba83ca863f879194ab4753ff579b346c7f2e3332a96b1cfdb877994",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "541.leela_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 606.251965,
+      "ratio": 2.731538,
+      "valid": "S",
+      "exehash": "242fcaa76efcc6752545106f3dc7c578aca60bae1898c713edbfa0891c13301d",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "541.leela_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 606.067658,
+      "ratio": 2.732368,
+      "valid": "S",
+      "exehash": "242fcaa76efcc6752545106f3dc7c578aca60bae1898c713edbfa0891c13301d",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "557.xz_r",
+      "tune": "base",
+      "iter": 0,
+      "copies": 1,
+      "reported_time": 472.421006,
+      "ratio": 2.286096,
+      "valid": "S",
+      "exehash": "4844684aa023067bb83252d02c299f73f9d9b93442578aaf81a378511862caf6",
+      "selected": true,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    },
+    {
+      "benchmark": "557.xz_r",
+      "tune": "base",
+      "iter": 1,
+      "copies": 1,
+      "reported_time": 472.390906,
+      "ratio": 2.286242,
+      "valid": "S",
+      "exehash": "4844684aa023067bb83252d02c299f73f9d9b93442578aaf81a378511862caf6",
+      "selected": false,
+      "source": "CPU2017.588.intrate.refrate.rsf:940ae0ef"
+    }
+  ],
+  "binaries": {
+    "502.gcc_r": {
+      "path": "binaries/502.gcc_r",
+      "size": 15120832,
+      "code_size": 11889749,
+      "sha256": "2fc532d53536561f9e367bc7047ca757cf2f6e3132af786f7b1f13729d534563",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/502.gcc_r/exe/cpugcc_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.260985708-05:00"
+    },
+    "505.mcf_r": {
+      "path": "binaries/505.mcf_r",
+      "size": 108480,
+      "code_size": 83300,
+      "sha256": "06b3bdf105518655cf8dca2f26249f16c57ebe5efaa97f0ae66eda884f30f0d6",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/505.mcf_r/exe/mcf_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.261163812-05:00"
+    },
+    "508.namd_r": {
+      "path": "binaries/508.namd_r",
+      "size": 1653008,
+      "code_size": 1357979,
+      "sha256": "9d9596db8031b9c709529b67d922f56b845d17b9d8612ec867a5e67c00e58b5d",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/508.namd_r/exe/namd_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.232257057-05:00"
+    },
+    "510.parest_r": {
+      "path": "binaries/510.parest_r",
+      "size": 5464904,
+      "code_size": 3725535,
+      "sha256": "c82d68c1f95667246558e8c87abd287648257b2fe898cb3b9b99a9b284c56acd",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/510.parest_r/exe/parest_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.238040108-05:00"
+    },
+    "511.povray_r": {
+      "path": "binaries/511.povray_r",
+      "size": 2487936,
+      "code_size": 1892619,
+      "sha256": "c1cb83c30c902b25c58ea7c74066e578128a72535402fd104791ce105c795661",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/511.povray_r/exe/povray_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.240810978-05:00"
+    },
+    "519.lbm_r": {
+      "path": "binaries/519.lbm_r",
+      "size": 95096,
+      "code_size": 71578,
+      "sha256": "efdb03a0d6800edcee7491a990d83b728292a239fe3c2277a3c57d059b0139f2",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/519.lbm_r/exe/lbm_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.240978248-05:00"
+    },
+    "520.omnetpp_r": {
+      "path": "binaries/520.omnetpp_r",
+      "size": 4871024,
+      "code_size": 2872127,
+      "sha256": "3f4f5b5dd50aba82ceeb4ae1596071b7486e87c25e91ec287ce21e9007c0ff41",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/520.omnetpp_r/exe/omnetpp_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.266156272-05:00"
+    },
+    "523.xalancbmk_r": {
+      "path": "binaries/523.xalancbmk_r",
+      "size": 9004456,
+      "code_size": 5427625,
+      "sha256": "ca7989a0c3358649980c7923050a9e286b1b1d2e1bf0a1ae058e02e7a193ccae",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/523.xalancbmk_r/exe/cpuxalan_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.275803413-05:00"
+    },
+    "525.x264_r": {
+      "path": "binaries/525.x264_r",
+      "size": 1056080,
+      "code_size": 905104,
+      "sha256": "333a54a30454dbc57cb59409fe30d0a36f4a01dbdb13b6d36e250bffc52be801",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/525.x264_r/exe/x264_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.277005221-05:00"
+    },
+    "531.deepsjeng_r": {
+      "path": "binaries/531.deepsjeng_r",
+      "size": 207104,
+      "code_size": 169427,
+      "sha256": "f3072a5965f369db30e91d1d298ed16e9e7188d5bb7047d8e89482568a8528de",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/531.deepsjeng_r/exe/deepsjeng_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.277279153-05:00"
+    },
+    "538.imagick_r": {
+      "path": "binaries/538.imagick_r",
+      "size": 2370616,
+      "code_size": 1965594,
+      "sha256": "3941bbbe20b09dcfd28fd4794a23ece39510700f08bb4d7dbe3fca082c676393",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/538.imagick_r/exe/imagick_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.243439033-05:00"
+    },
+    "541.leela_r": {
+      "path": "binaries/541.leela_r",
+      "size": 1756120,
+      "code_size": 1068863,
+      "sha256": "547189db7ade7df274e1c533db20ef3fd6bfeea589224c368901f4547380445b",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/541.leela_r/exe/leela_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.279099097-05:00"
+    },
+    "544.nab_r": {
+      "path": "binaries/544.nab_r",
+      "size": 236624,
+      "code_size": 178451,
+      "sha256": "184d400bd6e28ffa7dabeed2d1dac297f012970c10e0aaeef9dca251bf60e4e4",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/544.nab_r/exe/nab_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.243743287-05:00"
+    },
+    "557.xz_r": {
+      "path": "binaries/557.xz_r",
+      "size": 241440,
+      "code_size": 175855,
+      "sha256": "797ac85df40dbcb4c23f2333a99ba42aca83573e3c6b4177bd064d125ac28ee7",
+      "src_path": "/home/zyedidia/cpu2017/benchspec/CPU/557.xz_r/exe/xz_r_base.lfi-jumps-clang-m64",
+      "copied_at": "2026-05-03T20:18:48.279529932-05:00"
+    }
+  }
+}

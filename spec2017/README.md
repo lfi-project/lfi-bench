@@ -19,3 +19,9 @@ Geomean overheads on M2 (aarch64) and 7950X (x86-64).
 * `x86_64-lfi`: 7.1%
 * `x86_64-lfi-stores`: 5.4%
 * `x86_64-lfi-jumps`: 4.4%
+
+## Preliminary numbers for other configurations
+
+* `aarch64-lfi-large`: 17%
+* `aarch64-lfi-large-stores`: 3%
+* `x86_64-lfi-cet-jumps` (software endbr, hardware shstk): 5%
