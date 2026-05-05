@@ -3,10 +3,10 @@
 All schemes are `jumps-only`, to measure purely the effect of CFI approaches.
 
 * `cet`: Software simulation of aligned `endbr64`, hardware SHSTK.
-* `cfs`: `rsp` used only for control flow stack, `r13` reserved and used for data stack.
+* `cfs`: `rsp` used only for control flow stack, `r13` reserved and used for data stack, hardware `endbr64` (only performs alignment masks).
 * `hwcet`: Hardware `endbr64` (only performs alignment mask), hardware SHSTK.
-* `bundles`: Bundles.
-* `safestack`: SafeStack.
+* `bundles`: Bundles with masks.
+* `safestack`: SafeStack with aligned software endbr simulation.
 * `swcet`: Software simulation of both `endbr64` and shadow call stack.
 * `hwendbr`: Hardware `endbr64` (only performs alignment mask), no backward-edge CFI.
 
